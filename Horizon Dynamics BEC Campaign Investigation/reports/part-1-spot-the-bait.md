@@ -65,7 +65,7 @@ This email is a phishing attempt impersonating Horizon Dynamics, using a lookali
 
 ---
 
-## Note — IOCs vs. TTPs
+## IOCs vs. TTPs
 
 The IOC table above is restricted to **technical, machine-actionable data**: IPs, domains, URLs, email addresses, file hashes — anything a SIEM rule can match with `equals`. Behavioral signals like *urgency language*, *unexpected payroll request*, and *embedded QR code* are real red flags but they are **TTPs** (Tactics, Techniques, Procedures), not IOCs. They belong in the technical summary and the remediation reasoning, not in a block-list table.
 
