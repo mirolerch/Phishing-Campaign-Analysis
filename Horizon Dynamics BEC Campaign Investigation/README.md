@@ -1,8 +1,8 @@
 # Horizon Dynamics BEC Campaign Investigation
 
-> **Scenario:** Multi-stage Business Email Compromise (BEC) campaign targeting a fictional company, "Horizon Dynamics"
-> **Role simulated:** New SOC analyst doing first-pass triage and campaign-level write-up
-> **Output:** 3-part investigation — initial triage, deeper payload analysis, final one-page campaign report
+> **Scenario:** Multi-stage Business Email Compromise (BEC) campaign targeting a fictional company, "Horizon Dynamics" <br>
+> **Role simulated:** New SOC analyst doing first-pass triage and campaign-level write-up <br>
+> **Output:** 3-part investigation — initial triage, deeper payload analysis, final one-page campaign report <br>
 
 ---
 
