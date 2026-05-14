@@ -14,12 +14,3 @@ A two-stage Business Email Compromise (BEC) investigation against a fictional co
 
 **Skills demonstrated:** Email triage, header analysis (SPF / DKIM / DMARC), IOC extraction, Base64 decoding via CyberChef, LSB steganography extraction via CyberChef, campaign-level reporting, risk rating.
 
----
-
-## About me
-
-I'm transitioning from network and systems administration into SOC analyst work. This repo is part of that journey — every project captures a real piece of investigative practice plus my own reflections on what each one taught me.
-
-See my other repo, [tshark-network-traffic-analysis](https://github.com/mirolerch/tshark-network-traffic-analysis), for network-traffic-focused work.
-
-— **mirolerch**, 2026
