@@ -4,7 +4,6 @@ A collection of phishing-investigation case studies completed as part of my tran
 
 Each project is a self-contained investigation: emails under analysis, IOC tables, technical write-up, and (where applicable) a final campaign report.
 
----
 
 ## Projects
 
@@ -16,7 +15,6 @@ A two-stage Business Email Compromise (BEC) investigation against a fictional co
 
 **Outcome:** Instructor-reviewed, 10/10 on Parts 1 and 2, 9.5/10 on Part 3.
 
----
 
 ## About me
 
