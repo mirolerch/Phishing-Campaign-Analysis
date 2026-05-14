@@ -1,6 +1,6 @@
 # Part 2 — The Bait Gets Sharper
 
-> Stage 2 of the campaign: targeted spearphishing with a weaponized `.docm` attachment, encoded PowerShell, and a steganographically modified PNG.
+> Stage 2 of the campaign: targeted spearphishing with a weaponized `.docm` attachment, encoded PowerShell, and a steganographically modified PNG.<br>
 > The investigation goes beyond the email body — into headers, encoded payloads, and pixel-level steganography.
 
 ---
