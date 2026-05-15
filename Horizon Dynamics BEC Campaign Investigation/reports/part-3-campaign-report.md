@@ -1,6 +1,6 @@
 # Part 3 - Phishing Campaign Analysis Report
 
-> One-page campaign report covering both emails from the Horizon Dynamics BEC investigation.
+> One-page campaign report covering both emails from the Horizon Dynamics BEC investigation.<br>
 > Audience: SOC lead.
 
 ---
