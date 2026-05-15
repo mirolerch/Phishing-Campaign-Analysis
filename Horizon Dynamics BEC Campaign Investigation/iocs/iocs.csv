@@ -1,1 +1,20 @@
-
+type,value,first_seen,context,source
+email,sarah.chen@horizondynarnics.com,2026-04-07,Spoofed CEO sender,Part 1
+email,it.support@horizondynarnics.com,2026-04-09,Spoofed IT Support sender,Part 2
+email,bounce-3291@mail.horizondynarnics.com,2026-04-09,Return-Path on attacker infrastructure,Part 2
+email,helpdesk@horizondynamics-support.net,2026-04-09,Helpdesk contact on secondary domain,Part 2
+domain,horizondynarnics.com,2026-04-07,Typosquat root used in both emails,"Part 1, Part 2"
+domain,mail.horizondynarnics.com,2026-04-09,Attacker mail subdomain,Part 2
+domain,horizondynamics-payroll.co,2026-04-07,Lookalike payroll portal landing,Part 1
+domain,horizondynamics-support.net,2026-04-09,Help desk infrastructure,Part 2
+domain,cdn-horizondynamics.net,2026-04-09,C2 / exfiltration destination,Part 2
+ip,185.234.72.19,2026-04-09,Originating SMTP server,Part 2
+url,hxxps://horizondynamics-payroll[.]co/update,2026-04-07,Phishing landing page,Part 1
+url,hxxps://cdn-horizondynamics[.]net/exfil,2026-04-09,Exfiltration endpoint from steg payload,Part 2
+filename,Payroll_Verification_Form.docm,2026-04-09,Malicious macro-enabled attachment,Part 2
+filename,logo.png,2026-04-09,LSB steganography carrier image,Part 2
+filepath,C:\Temp\logo.png,2026-04-09,Drop location read by the loader,Part 2
+filepath,%APPDATA%\payroll_creds.txt,2026-04-09,Credential file targeted for exfiltration,Part 2
+auth,spf=fail,2026-04-09,Email authentication artifact,Part 2
+auth,dkim=none,2026-04-09,Email authentication artifact,Part 2
+auth,dmarc=fail,2026-04-09,Email authentication artifact,Part 2
