@@ -1,4 +1,4 @@
-# Indicators of Compromise — Consolidated
+# Indicators of Compromise - Consolidated
 
 All technical IOCs extracted across Parts 1, 2, and 3 of the Horizon Dynamics BEC campaign investigation. Deduplicated, defanged where appropriate, and grouped by type.
 
