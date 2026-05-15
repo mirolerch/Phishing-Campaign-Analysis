@@ -1,4 +1,4 @@
-# Part 1 — Spot the Bait
+# Part 1 - Spot the Bait
 
 > Stage 1 of the campaign: a wide-net BEC lure impersonating the CEO of Horizon Dynamics. <br>
 > First-pass triage: what does a SOC analyst notice in the first 30 seconds?
