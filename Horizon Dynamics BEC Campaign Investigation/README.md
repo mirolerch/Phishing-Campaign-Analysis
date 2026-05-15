@@ -10,7 +10,7 @@
 
 A threat actor sent two coordinated phishing emails to Horizon Dynamics over April 7–9, 2026.
 
-1. **Email #1 — wide-net CEO impersonation.** Spoofed "Sarah Chen, CEO" sends an all-staff payroll-update lure with an embedded QR code and a lookalike "secure payroll portal" link. The sender domain is a typosquat: `horizondynarnics.com` (note `rn` substituted for `m`).
+1. **Email #1 - wide-net CEO impersonation.** Spoofed "Sarah Chen, CEO" sends an all-staff payroll-update lure with an embedded QR code and a lookalike "secure payroll portal" link. The sender domain is a typosquat: `horizondynarnics.com` (note `rn` substituted for `m`).
 2. **Email #2 — targeted spearphishing follow-up.** Two days later, the same actor sends a tailored "IT Support" email to a single user (`j.martinez`) with a macro-enabled Word attachment. The macro launches a Base64-encoded PowerShell stager that reads a steganographically modified `logo.png` and exfiltrates `%APPDATA%\payroll_creds.txt` to `cdn-horizondynamics[.]net`.
 
 **Final risk rating:** 🟠 **High** — full attack chain delivered and executable; no confirmed user interaction at report time.
